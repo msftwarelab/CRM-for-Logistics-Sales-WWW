@@ -1,0 +1,49 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace FirstFreightAPI.Entities.DataCenter;
+
+public partial class LinkUserToCompany
+{
+    public int LinkUserToCompanyId { get; set; }
+
+    public int SubscriberId { get; set; }
+
+    public int CompanyId { get; set; }
+
+    public string CompanyName { get; set; } = null!;
+
+    public DateTime CreatedDate { get; set; }
+
+    public string CreatedUserName { get; set; } = null!;
+
+    public int CreatedUserId { get; set; }
+
+    public bool Deleted { get; set; }
+
+    public DateTime? DeletedDate { get; set; }
+
+    public int? DeletedUserId { get; set; }
+
+    public string? DeletedUserName { get; set; }
+
+    public DateTime LastUpdate { get; set; }
+
+    public string LinkType { get; set; } = null!;
+
+    public string? SalesTeamRole { get; set; }
+
+    public int UpdateUserId { get; set; }
+
+    public string UpdateUserName { get; set; } = null!;
+
+    public string? UserDataCenter { get; set; }
+
+    public int UserId { get; set; }
+
+    public string UserName { get; set; } = null!;
+
+    public int CompanyIdGlobal { get; set; }
+
+    public int UserIdGlobal { get; set; }
+}
