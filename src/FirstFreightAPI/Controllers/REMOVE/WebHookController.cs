@@ -8,7 +8,7 @@ namespace FirstFreightAPI.Controllers.REMOVE
     [ApiController]
     public class WebHookController : ControllerBase
     {
-        public readonly string WEBHOOKID = "whsec_9f64504c25cb6591c2c5da79450bddb381443f0ca57d2ca8dc061200eb813b0d";
+        public readonly string WEBHOOKID = "WEBHOOKID";
         // POST: api/StripeSubscriptions/AddStripeSubscription
         // To create new Stripe Subscription with AddStripeSubscription Model
         [HttpPost]
